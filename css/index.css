@@ -133,5 +133,37 @@ table {
 }
 html,
 body {
+  display: flex;
   height: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+@media (max-width: 500px) {
+  body {
+    max-width: 500px;
+  }
+}
+header {
+  border-right: 1.5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.h1T {
+  display: flex;
+  justify-content: center;
+  margin-left: 4.2rem;
+  margin-top: 8rem;
+}
+.NameTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: middle;
 }
