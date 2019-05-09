@@ -149,7 +149,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: black;
+  background: gray;
 }
 h1 {
   font-size: 3.5rem;
@@ -158,12 +158,12 @@ h1 {
   color: white;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .NameTitle {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px dashed gray;
+  border-bottom: 1px dashed white;
 }
 .underName {
   font-size: 1.3rem;
@@ -189,4 +189,30 @@ a {
   align-self: center;
   margin: 3rem;
   color: white;
+}
+footer .AboutLinks {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  justify-content: center;
+}
+footer .AboutLinks a {
+  margin: 1rem;
+}
+.RightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem;
+  width: 90%;
+  border: 1px solid red;
+}
+.RightSide .IntroHeadline {
+  font-size: 2rem;
+}
+.RightSide p {
+  font-size: 1.2rem;
+}
+.RightSide .MidText {
+  margin: 2rem;
 }
